@@ -82,7 +82,7 @@
   <div class="card">
     <h1>Calcul Heures Sup</h1>
 
-    <form onsubmit="calculer()">
+    <form onsubmit="event.preventDefault(); calculer();">
       <label for="heures">
         Heures sup au-delà de 38h
       </label>
